@@ -1,0 +1,44 @@
+/* imports fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono:wght@300;400&family=Vazirmatn:wght@500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* header css */
+
+.header .logo_text {
+  font-size: 32px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.header .search_bar {
+  background-color: rgba(241, 244, 247, 1);
+  border-radius: 20px;
+  width: 100%;
+}
+
+.header .search_bar input {
+  background-color: rgba(241, 244, 247, 1);
+  width: 90%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+
+/* search result section css */
+.search_result_section {
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: rgba(206, 217, 227, 1);
+  background-color: rgba(241, 244, 247, 1);
+  border-style: solid;
+}
+
+.search_result_section .tabs {
+  /* width:fit-content; */
+  background-color: rgba(206, 217, 227, 1);
+}
